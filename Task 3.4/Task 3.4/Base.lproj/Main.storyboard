@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Task_3_4" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Task_3_4" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -60,6 +60,9 @@
                                                     <color key="baseForegroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                     <color key="baseBackgroundColor" name="Blue Marguerite"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="loginPressionadoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L9h-Zt-Ose"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wgT-xk-gkp" userLabel="Button Esqueceu Senha">
                                                 <rect key="frame" x="32" y="318" width="286" height="31"/>
@@ -70,6 +73,9 @@
                                                     <color key="baseForegroundColor" systemColor="secondaryLabelColor"/>
                                                     <color key="baseBackgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="esqueceuSenhaButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fi9-jm-6bY"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -116,6 +122,9 @@
                             <constraint firstItem="958-6M-Zyh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mMc-Yz-kdl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="zBj-Fm-he1" id="IHd-8I-9ka"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -13,6 +13,7 @@
 		8B77B5952898962F00A34969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B77B5932898962F00A34969 /* Main.storyboard */; };
 		8B77B5972898963400A34969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B77B5962898963400A34969 /* Assets.xcassets */; };
 		8B77B59A2898963400A34969 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B77B5982898963400A34969 /* LaunchScreen.storyboard */; };
+		8B77B5A2289952F200A34969 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B77B5A1289952F200A34969 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8B77B5962898963400A34969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B77B5992898963400A34969 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B77B59B2898963400A34969 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B77B5A1289952F200A34969 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8B77B58F2898962F00A34969 /* SceneDelegate.swift */,
 				8B77B5912898962F00A34969 /* ViewController.swift */,
 				8B77B5932898962F00A34969 /* Main.storyboard */,
+				8B77B5A1289952F200A34969 /* LoginViewController.swift */,
 				8B77B5962898963400A34969 /* Assets.xcassets */,
 				8B77B5982898963400A34969 /* LaunchScreen.storyboard */,
 				8B77B59B2898963400A34969 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B77B5A2289952F200A34969 /* LoginViewController.swift in Sources */,
 				8B77B5922898962F00A34969 /* ViewController.swift in Sources */,
 				8B77B58E2898962F00A34969 /* AppDelegate.swift in Sources */,
 				8B77B5902898962F00A34969 /* SceneDelegate.swift in Sources */,
